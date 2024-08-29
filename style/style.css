@@ -14,7 +14,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 300px;
-    text-align: center;
+    /* text-align: center; */
     transition: transform 0.2s;
     padding: 16px;
     
@@ -31,18 +31,19 @@ body {
 }
 
 .blog-content {
-    padding: 20px;
+    padding: 0px;
 }
 
 .tag {
     display: inline-block;
     background-color: #e0e0ff;
     color: #6c63ff;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
     border-radius: 20px;
-    padding: 5px 10px;
-    margin-bottom: 15px;
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 h3 {
@@ -56,6 +57,7 @@ h3 {
     font-size: 0.9rem;
     color: #666666;
     margin-bottom: 20px;
+    padding: ;
 }
 
 .author {
